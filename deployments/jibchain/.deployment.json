@@ -1,0 +1,23 @@
+{
+  "InterestRateModelUSDT": "0x242e2a7aaC5907DacC7A5072C61821eaf50b2D6c",
+  "jJBC": "0x3D2B76D0d82596f8Da4140E329F88222C5E43F15",
+  "Unitroller": "0x17f739926DC48BCAdb2a3f749DEaC0dBCb75213b",
+  "Comptroller": "0x1e13Fa3Fb9351174aD520f2F3ad35042d682A906",
+  "Governance": "0x196Dd35b2D1Fae89AB5e4d67Beb69C1a2E89988a",
+  "InterestRateModelJBC": "0x05E42EE95C10390cEdffE94f91658202726aAFaA",
+  "SimplePriceOracle": "0xAcf9E784f77DC9e277569f941EC4539D78290B9B",
+  "InterestRateModelUSDC": "0xec2e7e5A317431f041CCF0fBfd111934de9cd8f2",
+  "Maximillion": "0x3bFd121DE4a742E0Ad40c3006a194ec004aFe1b5",
+  "JLendLens": "0xca929F69826dE364BCd81AC9B5A48d997093BEa1",
+  "jUSDT": "0xA72f520e7Ba98EDff49482DEf430f8497F81Ba1E",
+  "jUSDC": "0x633D88325c2CB647E8481c99A5AA0D1992a7940d",
+  "_commands": [
+    "hh --network 'jibchain' deploy --tags 'PriceOracle,JLendLens,Governance,Comptroller,Unitroller,IRM-JBC,IRM-USDC,IRM-USDT,jJBC,jUSDC,jUSDT,Maximillion'"
+  ],
+  "unverified": [
+    {
+      "action": "verify_failed",
+      "value": ["jUSDT", "jUSDC", "InterestRateModelUSDT", "InterestRateModelUSDC"]
+    }
+  ]
+}
